@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    padding: 20px 55px;
+}
+
+nav a {
+    display: flex;
+    float: right;
+    padding: 5px 14px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: rgb(223, 21, 21);
+    color: white;
+    margin-top: 0.5rem;
+    margin-right: 15px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.first-page {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url('/images/bg.png');
+    background-position: center;
+    background-size: cover;
+    border-bottom: 8px solid rgb(31, 29, 29);
+    position: relative;
+}
+
+.first-page h1 {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.1;
+    position: relative;
+    top: 18%;
+    left: 0;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.first-page h3 {
+    text-align: center;
+    font-size: 1.625rem;
+    position: relative;
+    top: 18%;
+    padding: 0.1rem;
+    font-weight: 400;
+}
+
+.first-page h5 {
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-size: 1.1rem;
+    letter-spacing: .5px;
+    font-weight: 500;
+}
+
+.first-page input {
+    height: 60px;
+    width: 450px;
+    position: relative;
+    top: 23%;
+    left: 26%;
+    color: black !important;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.first-page button {
+    position: relative;
+    top: 23.7%;
+    left: 25.5%;
+    padding: 0.75rem 30px;
+    font-size: 1.625rem;
+    background-color: rgb(212, 0, 0);
+    font-weight: 500;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(240, 2, 2);
+}
+
+.second-page {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 8px solid rgb(31, 29, 29);
+    position: relative;
+}
+
+.second-page h1 {
+    font-size: 2.2rem;
+    position: absolute;
+    top: 30%;
+}
+
+.second-page h3 {
+    letter-spacing: 1.5px;
+    margin-top: 60px;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.second-page img {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+}
+
+#third-page {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 8px solid rgb(31, 29, 29);
+    position: relative;
+}
+
+.third-page h1 {
+    font-size: 2.2rem;
+    top: 10%;
+    right: 15%;
+    margin: auto;
+}
+
+.third-page h3 {
+    letter-spacing: 1.5px;
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.download {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 320px;
+    height: 90px;
+    left: 13%;
+    bottom: 25%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(77, 74, 74);
+    border-radius: 20px;
+}
+
+.download h2 {
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.download h4 {
+    color: rgb(51, 51, 224);
+    position: relative;
+    right: 38%;
+    top: 50%;
+    font-weight: 400;
+}
+
+.download img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+.fourth-page {
+    width: 100%;
+    height: 30vh;
+    border-bottom: 8px solid rgb(31, 29, 29);
+    text-align: start;
+}
+
+.fourth-page h1 {
+    font-size: 2.2rem;
+    padding-left: 165px;
+    padding-top: 1rem;
+    line-height: 80px;
+}
+
+.fourth-page h3 {
+    font-size: 1.625rem;
+    font-weight: 400;
+    padding-left: 165px;
+}
+
+.fifth-page {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 8px solid rgb(31, 29, 29);
+    position: relative;
+}
+
+.fifth-page h1 {
+    font-size: 3rem;
+    position: absolute;
+    top: 30%;
+    right: 21%;
+}
+
+.fifth-page h3 {
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-left: 0;
+}
+
+.fifth-page img {
+    z-index: -1;
+    width: 500px;
+    position: relative;
+    left: 10%;
+}
+
+.sixth-page {
+    height: 110vh;
+    position: relative;
+}
+
+.sixth-page h1 {
+    text-align: center;
+    font-size: 3.1265rem;
+    margin: 50px;
+}
+
+.accordion {
+    max-width: 850px;
+    position: relative;
+    left: 20%;
+}
+
+.contentbox {
+    position: relative;
+    margin: 10px 20px;
+}
+
+.label {
+    position: relative;
+    padding: 10px;
+    background: #222;
+    color: white;
+    cursor: pointer;
+    padding: 20px 31px;
+    font-size: 1.5rem;
+}
+
+.contentbox.active .label:before {
+    content: 'X';
+    font-size: 1rem;
+}
+
+.label:before {
+    content: '+';
+    position: absolute;
+    color: white;
+    right: 30px;
+    font-size: 1.5rem;
+}
+
+.content {
+    position: relative;
+    background: #222;
+    height: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    transition: .1s;
+}
+
+.contentbox.active .content {
+    height: 370px;
+    padding: 0 30px;
+    font-size: 1.625rem;
+}
+.contentbox.active .content-2{
+    height: 150px !important;
+}
+
+.sixth-page h5 {
+    position: relative;
+    font-size: 1rem;
+    margin-top: 70px;
+    margin-left: 140px;
+}
+
+.sixth-page input {
+    height: 60px;
+    width: 450px;
+    position: relative;
+    top: 23%;
+    left: 13%;
+    color: black !important;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.sixth-page button {
+    position: absolute;
+    margin-top: 19.5px !important;
+    left: 65%;
+    padding: 0.8rem 30px;
+    font-size: 1.625rem;
+    background-color: rgb(212, 0, 0);
+    font-weight: 500;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
